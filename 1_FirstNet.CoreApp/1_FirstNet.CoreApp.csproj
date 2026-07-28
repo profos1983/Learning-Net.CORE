@@ -7,4 +7,10 @@
     <RootNamespace>_1_FirstNet.CoreApp</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Update="appsettings.Staging.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
